@@ -13,6 +13,10 @@ This project is a rigorous academic reproduction study and critical security aud
 ---
 
 # Execution Instructions
+git clone [Insert Your Public GitHub Repository URL Here]
+cd [Insert Your Repository Name Here]
+jupyter notebook phishing_detection.ipynb
+run the code
 
 # Prerequisites
 Ensure you have Python installed along with the following data science libraries:
