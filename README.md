@@ -15,7 +15,7 @@ This project is a rigorous academic reproduction study and critical security aud
 # Execution Instructions
 git clone https://github.com/rama603/Final-Project---Data-Science-in-Cyber-.git
 
-cd [Insert Your Repository Name Here]
+cd Final-Project---Data-Science-in-Cyber-
 
 jupyter notebook phishing_detection.ipynb
 
