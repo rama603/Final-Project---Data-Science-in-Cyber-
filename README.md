@@ -1,4 +1,4 @@
-# Final-Project---Data-Science-in-Cyber-
+# Final Project-Data Science in Cyber
 # Supervised Machine Learning for Phishing URL Detection: A Reproduction & Audit Study
 
 # Project Description
@@ -14,7 +14,7 @@ This project is a rigorous academic reproduction study and critical security aud
 
 # Execution Instructions
 
-### Prerequisites
+# Prerequisites
 Ensure you have Python installed along with the following data science libraries:
 ```bash
 pip install pandas numpy scikit-learn
