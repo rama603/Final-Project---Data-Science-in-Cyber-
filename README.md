@@ -31,7 +31,7 @@ run the code
 
 # Prerequisites
 Ensure you have Python installed along with the following data science libraries:
-```bash
+
 pip install pandas numpy scikit-learn
 
 ---
