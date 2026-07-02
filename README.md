@@ -34,6 +34,8 @@ Ensure you have Python installed along with the following data science libraries
 ```bash
 pip install pandas numpy scikit-learn
 
+---
+
 # Dependency Installation
 Install the exact library ecosystem configurations required to run the notebook without version depreciation warnings:
 pip install -r requirements.txt
