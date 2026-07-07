@@ -46,6 +46,9 @@ jupyter notebook notebook/phishing_detection.ipynb
 
 # Detailed Critical Findings & Cybersecurity Implications
 The XGBoost Illusion Dismantled: The original author's conclusion that XGBoost was the superior architecture was an artifact of unmitigated data leakage. Once duplicate feature patterns are stripped, the Support Vector Machine (SVM) emerges as the top-performing global classifier, capturing a 90.53\% CV Accuracy and a dominant 0.7088 CV MCC, far outperforming XGBoost’s 0.6875 MCC.
-The Label-Conflict Vulnerability Explored: Our updated data hygiene pipeline introduces an active label-conflict audit. This analysis proves that compressing continuous web properties into brittle binary thresholds causes completely distinct domains to collapse into identical structural feature signatures with conflicting ground-truth targets (0 and 1 mapping simultaneously), introducing high mathematical ambiguity into the feature space.Operational Conclusion: In an enterprise setting, triggering constant false alarms out of small pools of unique, everyday link clicks causes severe administrative denial-of-service and immediate alert fatigue within the Security Operations Center (SOC).
+
+The Label-Conflict Vulnerability Explored: Our updated data hygiene pipeline introduces an active label-conflict audit. This analysis proves that compressing continuous web properties into brittle binary thresholds causes completely distinct domains to collapse into identical structural feature signatures with conflicting ground-truth targets (0 and 1 mapping simultaneously), introducing high mathematical ambiguity into the feature space.
+
+Operational Conclusion: In an enterprise setting, triggering constant false alarms out of small pools of unique, everyday link clicks causes severe administrative denial-of-service and immediate alert fatigue within the Security Operations Center (SOC).
 
 
